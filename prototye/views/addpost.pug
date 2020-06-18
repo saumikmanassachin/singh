@@ -1,0 +1,22 @@
+extends layout
+
+block content
+        .container
+            nav(aria-lable="breadcrumb")
+                ol.breadcrumb
+                    li.breadcrumb-item
+                        a(href="#") Home
+                    li.breadcrumb-item
+                        a(href="#") Blog
+                    li(class="breadcrumb-item active")
+                        a(href="#")=title
+        .container
+            .container
+                div(class="jumbotron text-center my-3 py-5")
+                    h1.display-4= message
+            .container
+                div(class="card text-white bg-info")
+                    div(class="card-header") 
+                    div(class="card-body")
+                        p.card-text=p
+        

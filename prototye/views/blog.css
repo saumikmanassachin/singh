@@ -1,0 +1,18 @@
+.current-article-title{
+    font-size: 2em;
+    font-weight: bold;
+}
+.current-article-category{
+    color:rgba(0,0,0,0.4)
+}
+.current-article-category:hover, .current-article-title:hover, .sub-article-title:hover, .sub-article-category:hover{
+    text-decoration: underline;
+}
+.sub-article-title{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.sub-article-category{
+    color: rgba(0,0,0,0.4);
+    font-size: 0.8em;
+}

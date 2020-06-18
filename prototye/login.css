@@ -1,0 +1,75 @@
+body {
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #ffffff;
+  background: url(Singhclasses/jaredd-craig-HH4WBGNyltc-unsplash.jpg);
+  background-size: cover;
+}
+.signin {
+  background: rgba(44, 62, 80, 0.6);
+  padding: 40px;
+  width: 310px;
+  margin: auto;
+  margin-top: 100px;
+  height: 450px;
+}
+form {
+  width: 240px;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 240px;
+  text-align: center;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  font-family: "Play", sans-serif;
+  font-size: 16px;
+  font-weight: 200px;
+  padding: 10px 0;
+  transition: border 0.5px;
+  outline: none;
+  color: #ffffff;
+}
+
+input[type="password"] {
+  width: 240px;
+  text-align: center;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  font-family: "play", sans-serif;
+  font-size: 18px;
+  font-weight: 200px;
+  padding: 10px 0;
+  transition: border 0.5px;
+  outline: none;
+  color: #ffffff;
+}
+input[type="button"] {
+  border: none;
+  width: 190px;
+  background: white;
+  color: #000000;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  border-radius: 15px;
+  cursor: pointer;
+}
+input[type="button"]:hover {
+  color: #ffffff;
+  background-color: blue;
+}
+a {
+  color: yellow;
+  text-decoration: blink;
+}
+a:hover {
+  color: skyblue;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}

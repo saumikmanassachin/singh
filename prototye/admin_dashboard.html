@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/7f5c65a503.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/index2.css">
+    <title>Admin Dashbord</title>
+</head>
+
+<body>
+    <header>
+        <div id="bottom-header" class="bottom-header">
+            <div class="container-fluid">
+              <nav class="navbar navbar-expand-xl navbar-dark fixed-top" id="navbar">
+                <a class="navbar-brand" href="#">
+                  <img src="logo_image.png" alt="Logo image" width="250px">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Logout</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="admin_dashboard_section" class="admin_dashboard_section">
+        <div class="container-fluid admin_dashboard">
+            <div class="container-fluid welcome_admin" id="admin-jumbo">
+                <div class="jumbotron text-center">
+                    <h1 class="display-4">Welcome Administrator</h1>
+                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
+                        attention to featured content or information.</p>
+                    <hr class="my-4">
+                </div>
+            </div>
+            <div class="container-fluid admin-blog">
+                <div class="jumbotron text-center">
+                    <h1 class="display-4">Blogs</h1>
+                    <p class="lead">You can manage your blogs from here</p>
+                    <hr class="my-4">
+                    <div class="card-deck">
+                        <div class="card bg-light">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Create Blog</h5>
+                                <p class="card-text">If you want to create a blog</p>
+                                <a href="new_blog.html" class="btn btn-outline-success">Click me!</a>
+                            </div>
+                        </div>
+                        <div class="card bg-light">
+
+                            <div class="card-body">
+                                <h5 class="card-title">See Blogs</h5>
+                                <p class="card-text">If you want to see your blogs enter Blog ID</p>
+                                <!--
+                                <form action="/deleteblog" method="post">
+                                    <input type="number" name="blog_id" placeholder="enter id of the blog" id="blog_id">
+                                    <input type="submit" name="addblog" placeholder="addblog">
+                                </form>
+                                -->
+                                <div class="content-inner">
+                                    <div class="form-wrapper">
+                                        <form action="/seeblog" method="post">
+                                            <div class="form-group">
+                                                <label class="sr-only">Blog ID</label>
+                                                <input type="number" name="blog_id" placeholder="Blog ID" id="blog_id"
+                                                    class="form-control">
+                                            </div>
+                                            <div class="clearfix text-right">
+                                                <button type="submit" name="seeblog" placeholder="seeblog"
+                                                    class="btn btn-outline-info">
+                                                    See Blog
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-light">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Delete Blog</h5>
+                                <p class="card-text">If you want to delete a blog Enter it's ID</p>
+                                <div class="content-inner">
+                                    <div class="form-wrapper">
+                                        <form action="/deleteblog" method="post">
+                                            <div class="form-group">
+                                                <label class="sr-only">Blog ID</label>
+                                                <input type="number" name="blog_id" placeholder="Blog ID" id="blog_id"
+                                                    class="form-control">
+                                            </div>
+                                            <div class="clearfix text-right">
+                                                <button type="submit" name="deleteblog" placeholder="deleteblog"
+                                                    class="btn btn-outline-danger">
+                                                    Delete Blog
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid admin-notes">
+                <div class="jumbotron text-center">
+                    <h1 class="display-4">Notes</h1>
+                    <p class="lead">You can manage all the notes from here here</p>
+                    <hr class="my-4">
+                    <div class="card-deck">
+                        <div class="card bg-light">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Create Notes</h5>
+                                <p class="card-text">If you want to Upload some Notes</p>
+                                <div class="dropdown">
+                                    <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Dropdown button
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                      <a class="dropdown-item" href="new_notes_8th.html">Class VIII</a>
+                                      <a class="dropdown-item" href="new_notes_9th.html">Class IX</a>
+                                      <a class="dropdown-item" href="new_notes_10th.html">Class X</a>
+                                      <a class="dropdown-item" href="new_notes_11th.html">Class XI</a>
+                                      <a class="dropdown-item" href="new_notes_12th.html">Class XII</a>
+                                    </div>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="card bg-light">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Delete Notes</h5>
+                                <p class="card-text">If you want to delete some Notes</p>
+                                <a href="#" class="btn btn-outline-danger">Click me!</a>
+                            </div>
+                        </div>
+                        <div class="card bg-light">
+
+                            <div class="card-body">
+                                <h5 class="card-title">See Quiz</h5>
+                                <p class="card-text">If you want to see the uploaded notes</p>
+                                <a href="#" class="btn btn-outline-info">Click me!</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container-fluid admin-quiz">
+                <div class="jumbotron text-center">
+                    <h1 class="display-4">Quiz</h1>
+                    <p class="lead">You can manage the quizes here</p>
+                    <hr class="my-4">
+                    <div class="card-deck">
+                        <div class="card bg-light">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Create Quiz</h5>
+                                <p class="card-text">If you want to create a quiz</p>
+                                <a href="quiz_create.html" class="btn btn-outline-success">Click me!</a>
+                            </div>
+                        </div>
+                        <div class="card bg-light">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Delete Quiz</h5>
+                                <p class="card-text">If you want to delete a quiz</p>
+                                <a href="#" class="btn btn-outline-danger">Click me!</a>
+                            </div>
+                        </div>
+                        <div class="card bg-light">
+
+                            <div class="card-body">
+                                <h5 class="card-title">See Quiz</h5>
+                                <p class="card-text">If you want to see the created quiz</p>
+                                <a href="#" class="btn btn-outline-info">Click me!</a>
+                            </div>
+                        </div>
+                        <div class="card bg-light">
+
+                            <div class="card-body">
+                                <h5 class="card-title">Show Results</h5>
+                                <p class="card-text">If you want to see the results</p>
+                                <a href="#" class="btn btn-outline-info">Click me!</a>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="full-footer">
+        <div class="container top-footer text-center">
+            <div class="row">
+                <div class="col-md-6">
+                    <img class="img-fluid" src="logo_image.png" alt="Logo image">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis illo quidem ad unde enim,
+                        delectus
+                        voluptatibus libero assumenda dicta dolor?
+                        <a href="#">Read more...</a>
+                    </p>
+                    <a class="p-1" href="#"><i class="fab fa-2x fa-facebook-square"></i></a>
+                    <a class="p-1" href="#"><i class="fab fa-2x fa-google-plus-square"></i></a>
+                    <a class="p-1" href="#"><i class="fab fa-2x fa-twitter-square"></i></a>
+                    <a class="p-1" href="#"><i class="fab fa-2x fa-instagram"></i></a>
+                </div>
+                <div class="col-md-6 p-5">
+                    <h3 style="color: white;">Important Links</h3><br>
+                    <a href="#">Privacy Policy</a><br>
+                    <a href="#">Blog Articles</a><br>
+                    <a href="#">Notes</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="container-fluid bottom-footer text-center p-3">
+            <p>Copyrights - All rights reserved</p><br>
+            <p>Website by us</p>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

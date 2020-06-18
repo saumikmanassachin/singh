@@ -1,0 +1,229 @@
+.top-header{
+  background-color: teal;
+  color:white;
+}
+.top-header a{
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.89rem;
+}
+.container-fluid{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+
+
+
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background: rgba(8, 9, 46, 0.7);
+}
+.carousel-caption {
+  bottom: 380px;
+}
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: merienda;
+}
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+  font-family: poppins;
+}
+.carousel-caption a {
+  text-transform: uppercase;
+  background: #262626;
+  padding: 10px 30px;
+  display: inline-block;
+  color: #fff;
+  margin-top: 15px;
+}
+/*
+.navbar-nav a {
+  font-family: poppins;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+.navbar-nav {
+  text-align: center;
+}
+.nav-link {
+  padding: 0.2rem 1rem;
+}
+.nav-link.active,
+.nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: rgb(10, 83, 0) !important;
+}
+.w-100 {
+  height: 100vh;
+}
+@media only screen and (max-width: 767px) {
+  .navbar-nav .ml-auto {
+    background: rgba(8, 9, 46, 0.5);
+  }
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #ffffff;
+  }
+}
+
+.navbar-brand:hover {
+  color: red;
+*/
+
+.full-footer{
+  background-color: #2b4d4f;
+}
+.top-footer{
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-style: normal;
+    color: #eae3d1;
+}
+.top-footer a{
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-style: normal;
+    color: #eae3d1;
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+}
+.top-footer a:hover{
+  color: white;
+}
+.bottom-footer{
+  background-color: teal;
+  font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0px;
+    font-style: normal;
+    color: #eae3d1;
+}
+.querie{
+  height: 300px;
+}
+
+
+#notes .card{
+  background: linear-gradient(90deg, teal, #2c3e50);
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px #2c3e50;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+}
+#notes .card:hover{
+  background: linear-gradient(90deg,teal , #2c3e50);
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 5px 5px 10px #f39c12;
+}
+#notes a{
+  color: #f39c12;
+}
+
+.admin_dashboard{
+  margin-top: 100px;
+}
+.admin_new_blog_creation{
+  margin-top: 100px;
+}
+
+.content-inner{
+  padding: 30px;
+}
+.test_assignment a{
+  text-decoration: none;
+  color: #f39c12;
+}
+
+
+/* this is the counter section*/
+/*Text area below slider
+
+.intro-area {
+  /*display: flex;
+  position: relative;
+  padding: 100px 0px;
+  text-align: center;
+}
+.sub-heading {
+  position: relative;
+  margin-bottom: 75px;
+}
+
+.sub-heading:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -3%;
+  width: 6%;
+  height: 1px;
+  background-color: deepskyblue;
+  z-index: 1;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+.sub-heading:hover:before {
+  width: 24%;
+  margin-left: -12%;
+}
+
+.sub-heading:after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -12%;
+  width: 24%;
+  height: 1px;
+  background-color: #e1e1e1;
+}
+
+.sub-heading p {
+  color: #818181;
+  display: inline-block;
+  padding: 0px 0px 20px;
+  position: relative;
+  line-height: 24px;
+  letter-spacing: 0.025em;
+}
+*/

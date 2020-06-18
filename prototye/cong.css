@@ -1,0 +1,26 @@
+body {
+  background-image: url(Singhclasses/hero-image-autumn-leaves-on-flat-blue-background-2-picjumbo-com.jpg);
+  background-size: cover;
+}
+
+a {
+  color: yellow;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-left: 25px;
+}
+.cong {
+  background: rgba(44, 62, 80, 0.6);
+  padding: 40px;
+  width: 350px;
+  height: 200px;
+  margin: auto;
+  margin-top: 220px;
+  margin-left: 330px;
+}
+a:hover {
+  color: salmon;
+}
+h2 {
+  margin-top: 40px;
+  margin-left: 25px;
+}
