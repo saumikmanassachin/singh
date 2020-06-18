@@ -14,7 +14,7 @@ const notes_11th=require('../prototye/datamodel/11th_notes');
 const notes_12th=require('../prototye/datamodel/12th_notes');
 const mailer = require('nodemailer');
 //connection to DATAbase
-mongoose.connect('mongodb+srv://admin_project:myworkisgood@myproject-s70mj.gcp.mongodb.net/mydb?retryWrites=true&w=majority',{useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb+srv://admin_project:myworkisgood@myproject-s70mj.gcp.mongodb.net/test?retryWrites=true&w=majority',{useNewUrlParser: true, useUnifiedTopology: true});
 
 //set up things for authentication dont change these might create problem if changed
 var app = express();
