@@ -1,17 +1,17 @@
 var express = require('express');
 var mongoose = require('mongoose');
 var bodyparser= require('body-parser');
-const input1 = require('../prototye/datamodel/login_model');
-const input = require('../prototye/datamodel/data_model');
-const query_auth = require('../prototye/datamodel/query_model');
-const auth = require('../prototye/datamodel/blog_model');
-const blog = require('../prototye/datamodel/blog_model');
-const quiz =require('../prototye/datamodel/quiz_model');
-const notes_8th=require('../prototye/datamodel/8th_notes');
-const notes_9th=require('../prototye/datamodel/9th_notes');
-const notes_10th=require('../prototye/datamodel/10th_notes');
-const notes_11th=require('../prototye/datamodel/11th_notes');
-const notes_12th=require('../prototye/datamodel/12th_notes');
+const input1 = require('../datamodel/login_model');
+const input = require('../datamodel/data_model');
+const query_auth = require('../datamodel/query_model');
+const auth = require('../datamodel/blog_model');
+const blog = require('../datamodel/blog_model');
+const quiz =require('../datamodel/quiz_model');
+const notes_8th=require('../datamodel/8th_notes');
+const notes_9th=require('../datamodel/9th_notes');
+const notes_10th=require('../datamodel/10th_notes');
+const notes_11th=require('../datamodel/11th_notes');
+const notes_12th=require('../datamodel/12th_notes');
 const mailer = require('nodemailer');
 //connection to DATAbase
 //mongoose.connect('mongodb://localhost:27017/mydb',{useNewUrlParser: true, useUnifiedTopology: true});
